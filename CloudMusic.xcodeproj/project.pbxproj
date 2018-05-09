@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C3A0C8B20A2C2B1008D5DF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3A0C8A20A2C2B1008D5DF1 /* AppDelegate.m */; };
+		1C3A0C8E20A2C2B1008D5DF1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3A0C8D20A2C2B1008D5DF1 /* ViewController.m */; };
+		1C3A0C9120A2C2B1008D5DF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C3A0C8F20A2C2B1008D5DF1 /* Main.storyboard */; };
+		1C3A0C9420A2C2B1008D5DF1 /* CloudMusic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1C3A0C9220A2C2B1008D5DF1 /* CloudMusic.xcdatamodeld */; };
+		1C3A0C9620A2C2B1008D5DF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C3A0C9520A2C2B1008D5DF1 /* Assets.xcassets */; };
+		1C3A0C9920A2C2B1008D5DF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C3A0C9720A2C2B1008D5DF1 /* LaunchScreen.storyboard */; };
+		1C3A0C9C20A2C2B2008D5DF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3A0C9B20A2C2B2008D5DF1 /* main.m */; };
+		1C3A0CA620A2C2B2008D5DF1 /* CloudMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3A0CA520A2C2B2008D5DF1 /* CloudMusicTests.m */; };
+		1C3A0CB120A2C2B2008D5DF1 /* CloudMusicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3A0CB020A2C2B2008D5DF1 /* CloudMusicUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C3A0CA220A2C2B2008D5DF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C3A0C7E20A2C2B1008D5DF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C3A0C8520A2C2B1008D5DF1;
+			remoteInfo = CloudMusic;
+		};
+		1C3A0CAD20A2C2B2008D5DF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C3A0C7E20A2C2B1008D5DF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C3A0C8520A2C2B1008D5DF1;
+			remoteInfo = CloudMusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C3A0C8620A2C2B1008D5DF1 /* CloudMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C3A0C8920A2C2B1008D5DF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1C3A0C8A20A2C2B1008D5DF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1C3A0C8C20A2C2B1008D5DF1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1C3A0C8D20A2C2B1008D5DF1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1C3A0C9020A2C2B1008D5DF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C3A0C9320A2C2B1008D5DF1 /* CloudMusic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CloudMusic.xcdatamodel; sourceTree = "<group>"; };
+		1C3A0C9520A2C2B1008D5DF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C3A0C9820A2C2B1008D5DF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1C3A0C9A20A2C2B2008D5DF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C3A0C9B20A2C2B2008D5DF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1C3A0CA120A2C2B2008D5DF1 /* CloudMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C3A0CA520A2C2B2008D5DF1 /* CloudMusicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloudMusicTests.m; sourceTree = "<group>"; };
+		1C3A0CA720A2C2B2008D5DF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C3A0CAC20A2C2B2008D5DF1 /* CloudMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C3A0CB020A2C2B2008D5DF1 /* CloudMusicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloudMusicUITests.m; sourceTree = "<group>"; };
+		1C3A0CB220A2C2B2008D5DF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C3A0C8320A2C2B1008D5DF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C3A0C9E20A2C2B2008D5DF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C3A0CA920A2C2B2008D5DF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C3A0C7D20A2C2B1008D5DF1 = {
+			isa = PBXGroup;
+			children = (
+				1C3A0C8820A2C2B1008D5DF1 /* CloudMusic */,
+				1C3A0CA420A2C2B2008D5DF1 /* CloudMusicTests */,
+				1C3A0CAF20A2C2B2008D5DF1 /* CloudMusicUITests */,
+				1C3A0C8720A2C2B1008D5DF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C3A0C8720A2C2B1008D5DF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C3A0C8620A2C2B1008D5DF1 /* CloudMusic.app */,
+				1C3A0CA120A2C2B2008D5DF1 /* CloudMusicTests.xctest */,
+				1C3A0CAC20A2C2B2008D5DF1 /* CloudMusicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C3A0C8820A2C2B1008D5DF1 /* CloudMusic */ = {
+			isa = PBXGroup;
+			children = (
+				1C3A0C8920A2C2B1008D5DF1 /* AppDelegate.h */,
+				1C3A0C8A20A2C2B1008D5DF1 /* AppDelegate.m */,
+				1C3A0C8C20A2C2B1008D5DF1 /* ViewController.h */,
+				1C3A0C8D20A2C2B1008D5DF1 /* ViewController.m */,
+				1C3A0C8F20A2C2B1008D5DF1 /* Main.storyboard */,
+				1C3A0C9520A2C2B1008D5DF1 /* Assets.xcassets */,
+				1C3A0C9720A2C2B1008D5DF1 /* LaunchScreen.storyboard */,
+				1C3A0C9A20A2C2B2008D5DF1 /* Info.plist */,
+				1C3A0C9B20A2C2B2008D5DF1 /* main.m */,
+				1C3A0C9220A2C2B1008D5DF1 /* CloudMusic.xcdatamodeld */,
+			);
+			path = CloudMusic;
+			sourceTree = "<group>";
+		};
+		1C3A0CA420A2C2B2008D5DF1 /* CloudMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C3A0CA520A2C2B2008D5DF1 /* CloudMusicTests.m */,
+				1C3A0CA720A2C2B2008D5DF1 /* Info.plist */,
+			);
+			path = CloudMusicTests;
+			sourceTree = "<group>";
+		};
+		1C3A0CAF20A2C2B2008D5DF1 /* CloudMusicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1C3A0CB020A2C2B2008D5DF1 /* CloudMusicUITests.m */,
+				1C3A0CB220A2C2B2008D5DF1 /* Info.plist */,
+			);
+			path = CloudMusicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C3A0C8520A2C2B1008D5DF1 /* CloudMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C3A0CB520A2C2B2008D5DF1 /* Build configuration list for PBXNativeTarget "CloudMusic" */;
+			buildPhases = (
+				1C3A0C8220A2C2B1008D5DF1 /* Sources */,
+				1C3A0C8320A2C2B1008D5DF1 /* Frameworks */,
+				1C3A0C8420A2C2B1008D5DF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudMusic;
+			productName = CloudMusic;
+			productReference = 1C3A0C8620A2C2B1008D5DF1 /* CloudMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C3A0CA020A2C2B2008D5DF1 /* CloudMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C3A0CB820A2C2B2008D5DF1 /* Build configuration list for PBXNativeTarget "CloudMusicTests" */;
+			buildPhases = (
+				1C3A0C9D20A2C2B2008D5DF1 /* Sources */,
+				1C3A0C9E20A2C2B2008D5DF1 /* Frameworks */,
+				1C3A0C9F20A2C2B2008D5DF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C3A0CA320A2C2B2008D5DF1 /* PBXTargetDependency */,
+			);
+			name = CloudMusicTests;
+			productName = CloudMusicTests;
+			productReference = 1C3A0CA120A2C2B2008D5DF1 /* CloudMusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1C3A0CAB20A2C2B2008D5DF1 /* CloudMusicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C3A0CBB20A2C2B2008D5DF1 /* Build configuration list for PBXNativeTarget "CloudMusicUITests" */;
+			buildPhases = (
+				1C3A0CA820A2C2B2008D5DF1 /* Sources */,
+				1C3A0CA920A2C2B2008D5DF1 /* Frameworks */,
+				1C3A0CAA20A2C2B2008D5DF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C3A0CAE20A2C2B2008D5DF1 /* PBXTargetDependency */,
+			);
+			name = CloudMusicUITests;
+			productName = CloudMusicUITests;
+			productReference = 1C3A0CAC20A2C2B2008D5DF1 /* CloudMusicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C3A0C7E20A2C2B1008D5DF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = lyf;
+				TargetAttributes = {
+					1C3A0C8520A2C2B1008D5DF1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					1C3A0CA020A2C2B2008D5DF1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1C3A0C8520A2C2B1008D5DF1;
+					};
+					1C3A0CAB20A2C2B2008D5DF1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1C3A0C8520A2C2B1008D5DF1;
+					};
+				};
+			};
+			buildConfigurationList = 1C3A0C8120A2C2B1008D5DF1 /* Build configuration list for PBXProject "CloudMusic" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C3A0C7D20A2C2B1008D5DF1;
+			productRefGroup = 1C3A0C8720A2C2B1008D5DF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C3A0C8520A2C2B1008D5DF1 /* CloudMusic */,
+				1C3A0CA020A2C2B2008D5DF1 /* CloudMusicTests */,
+				1C3A0CAB20A2C2B2008D5DF1 /* CloudMusicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C3A0C8420A2C2B1008D5DF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C3A0C9920A2C2B1008D5DF1 /* LaunchScreen.storyboard in Resources */,
+				1C3A0C9620A2C2B1008D5DF1 /* Assets.xcassets in Resources */,
+				1C3A0C9120A2C2B1008D5DF1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C3A0C9F20A2C2B2008D5DF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C3A0CAA20A2C2B2008D5DF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C3A0C8220A2C2B1008D5DF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C3A0C8E20A2C2B1008D5DF1 /* ViewController.m in Sources */,
+				1C3A0C9420A2C2B1008D5DF1 /* CloudMusic.xcdatamodeld in Sources */,
+				1C3A0C9C20A2C2B2008D5DF1 /* main.m in Sources */,
+				1C3A0C8B20A2C2B1008D5DF1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C3A0C9D20A2C2B2008D5DF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C3A0CA620A2C2B2008D5DF1 /* CloudMusicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C3A0CA820A2C2B2008D5DF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C3A0CB120A2C2B2008D5DF1 /* CloudMusicUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C3A0CA320A2C2B2008D5DF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C3A0C8520A2C2B1008D5DF1 /* CloudMusic */;
+			targetProxy = 1C3A0CA220A2C2B2008D5DF1 /* PBXContainerItemProxy */;
+		};
+		1C3A0CAE20A2C2B2008D5DF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C3A0C8520A2C2B1008D5DF1 /* CloudMusic */;
+			targetProxy = 1C3A0CAD20A2C2B2008D5DF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1C3A0C8F20A2C2B1008D5DF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C3A0C9020A2C2B1008D5DF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1C3A0C9720A2C2B1008D5DF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C3A0C9820A2C2B1008D5DF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C3A0CB320A2C2B2008D5DF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1C3A0CB420A2C2B2008D5DF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C3A0CB620A2C2B2008D5DF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2F2H4PK7S7;
+				INFOPLIST_FILE = CloudMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyf.CloudMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C3A0CB720A2C2B2008D5DF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2F2H4PK7S7;
+				INFOPLIST_FILE = CloudMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyf.CloudMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1C3A0CB920A2C2B2008D5DF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2F2H4PK7S7;
+				INFOPLIST_FILE = CloudMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyf.CloudMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudMusic.app/CloudMusic";
+			};
+			name = Debug;
+		};
+		1C3A0CBA20A2C2B2008D5DF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2F2H4PK7S7;
+				INFOPLIST_FILE = CloudMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyf.CloudMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudMusic.app/CloudMusic";
+			};
+			name = Release;
+		};
+		1C3A0CBC20A2C2B2008D5DF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2F2H4PK7S7;
+				INFOPLIST_FILE = CloudMusicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyf.CloudMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CloudMusic;
+			};
+			name = Debug;
+		};
+		1C3A0CBD20A2C2B2008D5DF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2F2H4PK7S7;
+				INFOPLIST_FILE = CloudMusicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyf.CloudMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CloudMusic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C3A0C8120A2C2B1008D5DF1 /* Build configuration list for PBXProject "CloudMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C3A0CB320A2C2B2008D5DF1 /* Debug */,
+				1C3A0CB420A2C2B2008D5DF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C3A0CB520A2C2B2008D5DF1 /* Build configuration list for PBXNativeTarget "CloudMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C3A0CB620A2C2B2008D5DF1 /* Debug */,
+				1C3A0CB720A2C2B2008D5DF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C3A0CB820A2C2B2008D5DF1 /* Build configuration list for PBXNativeTarget "CloudMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C3A0CB920A2C2B2008D5DF1 /* Debug */,
+				1C3A0CBA20A2C2B2008D5DF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C3A0CBB20A2C2B2008D5DF1 /* Build configuration list for PBXNativeTarget "CloudMusicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C3A0CBC20A2C2B2008D5DF1 /* Debug */,
+				1C3A0CBD20A2C2B2008D5DF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1C3A0C9220A2C2B1008D5DF1 /* CloudMusic.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1C3A0C9320A2C2B1008D5DF1 /* CloudMusic.xcdatamodel */,
+			);
+			currentVersion = 1C3A0C9320A2C2B1008D5DF1 /* CloudMusic.xcdatamodel */;
+			path = CloudMusic.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1C3A0C7E20A2C2B1008D5DF1 /* Project object */;
+}
