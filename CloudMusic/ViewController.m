@@ -7,16 +7,21 @@
 //
 
 #import "ViewController.h"
-
+#import <AVFoundation/AVFoundation.h>
 @interface ViewController ()
-
+@property(nonatomic, strong) NSString *currentSong;
+@property(nonatomic, strong) AVPlayer *player;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    NSURL *playUrl = [NSURL URLWithString:@"http://bmob-cdn-18965.b0.upaiyun.com/2018/05/10/db4c20dc40bfedf1800300eb54b86ded.mp3"];
+    self.player.volume = 1.0;
+    self.player = [[AVPlayer alloc] initWithURL:playUrl];
+    [self.player play];
+
 }
 
 

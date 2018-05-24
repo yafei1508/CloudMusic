@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import <BmobSDK/Bmob.h>
+#import <AVFoundation/AVFoundation.h>
 @interface AppDelegate ()
 
 @end
@@ -17,6 +18,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleDefault;
+    //用于音乐后台播放
+    AVAudioSession *audioSession = [AVAudioSession sharedInstance];
+    [audioSession setCategory:AVAudioSessionCategoryPlayback error:nil];
+    [audioSession setActive:YES error:nil];
+    //绑定bmob后台
+    [Bmob registerWithAppKey:@"b94a50a6c627c6d06f291727070dd15e"];
+    //初始化player
+    _playState = 0;//暂停状态
+    _playPattern = 0;//循环方式
+    _musicIndex = -1;
+    
+    [NSThread sleepForTimeInterval:2.0];
     return YES;
 }
 
